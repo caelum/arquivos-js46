@@ -8,24 +8,24 @@ class Cabecalho extends Component {
             <header className="cabecalho">
                 <div className="cabecalho__container container">
                     <h1 className="cabecalho__logo">
-                        <a href="">Twitelum</a>
+                        <a href="/">Twitelum</a>
                     </h1>
                 <nav className="navMenu">
                     <ul className="navMenu__lista">
                         <li className="navMenu__item">
-                            <a className="navMenu__link">
+                            <a className="navMenu__link" href="/">
                                 Bem vindo(a): <br />
                                 <strong>{ this.props.usuario }</strong>
                             </a>
                         </li>
                         <li className="navMenu__item">
-                            <a className="navMenu__link" href="">Página Inicial</a>
+                            <a className="navMenu__link" href="/">Página Inicial</a>
                         </li>
                         <li className="navMenu__item">
-                            <a className="navMenu__link">Hashtags</a>
+                            <a className="navMenu__link" href="/hashtags">Hashtags</a>
                         </li>
                         <li className="navMenu__item">
-                            <a className="navMenu__link">Logout</a>
+                            <a className="navMenu__link" href="/logout">Logout</a>
                         </li>
                     </ul>
                 </nav>
