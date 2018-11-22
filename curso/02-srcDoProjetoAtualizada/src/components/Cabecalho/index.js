@@ -8,7 +8,7 @@ class Cabecalho extends Component {
             <header className="cabecalho">
                 <div className="cabecalho__container container">
                     <h1 className="cabecalho__logo">
-                        <a href="">Twitelum</a>
+                        <a href="/">Twitelum</a>
                     </h1>
                     { this.props.children }
                 </div>
