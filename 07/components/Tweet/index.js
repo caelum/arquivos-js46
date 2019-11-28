@@ -10,7 +10,7 @@ function Tweet() {
           src="https://placehold.it/50x50"
           alt=""
         />
-        <span className="tweet__nomeUsuario">Fulano de Tal</span>
+        <span className="tweet__nomeUsuario">Caelum</span>
         <a href="/">
           <span className="tweet__userName">@caelum</span>
         </a>

@@ -20,6 +20,7 @@ function App() {
               <div className="novoTweet__editorArea">
                 <span className="novoTweet__status">{tweet.length}/140</span>
                 <textarea
+                  autoFocus
                   className="novoTweet__editor"
                   placeholder="O que está acontecendo?"
                 ></textarea>
