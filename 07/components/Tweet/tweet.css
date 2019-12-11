@@ -36,3 +36,13 @@
 .tweet__footer {
   margin-top: 10px;
 }
+.tweet__likeadores li {
+  list-style: none;
+  display: inline-block;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: aliceblue;
+  font-size: .7em;
+  margin-right: 3px;
+  color: #333;
+}
