@@ -6,7 +6,7 @@ import TrendsArea from './components/TrendsArea';
 import Tweet from './components/Tweet';
 import NavMenu from './components/NavMenu';
 
-function App() {
+export default function App() {
 
   return (
     <Fragment>
@@ -45,5 +45,3 @@ function App() {
     </Fragment>
   );
 }
-
-export default App;

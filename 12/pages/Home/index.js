@@ -6,7 +6,7 @@ import TrendsArea from '../../components/TrendsArea';
 import Tweet from '../../components/Tweet';
 import NavMenu from '../../components/NavMenu';
 
-function Home() {
+export default function Home() {
 
   const [tweet, setTweet] = useState('');
   const [tweetList, setTweetList] = useState([]);
@@ -70,5 +70,3 @@ function Home() {
     </Fragment>
   );
 }
-
-export default Home;

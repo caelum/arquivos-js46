@@ -3,7 +3,7 @@ import Cabecalho from '../../components/Cabecalho';
 import Widget from '../../components/Widget';
 import './login.css';
 
-function Login() {
+export default function Login() {
   return (
     <Fragment>
       <Cabecalho />
@@ -37,5 +37,3 @@ function Login() {
     </Fragment>
   )
 }
-
-export default Login;

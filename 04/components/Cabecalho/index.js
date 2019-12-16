@@ -2,7 +2,7 @@ import React from 'react';
 import './cabecalho.css';
 import './navMenu.css';
 
-function Cabecalho() {
+export default function Cabecalho() {
   return (
     <header className="cabecalho">
       <div className="cabecalho__container container">
@@ -32,5 +32,3 @@ function Cabecalho() {
     </header>
   );
 }
-
-export default Cabecalho;

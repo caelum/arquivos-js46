@@ -1,7 +1,7 @@
 import React from 'react';
 import './cabecalho.css';
 
-function Cabecalho(props) {
+export default function Cabecalho(props) {
   return (
     <header className="cabecalho">
       <div className="cabecalho__container container">
@@ -13,5 +13,3 @@ function Cabecalho(props) {
     </header>
   );
 }
-
-export default Cabecalho;

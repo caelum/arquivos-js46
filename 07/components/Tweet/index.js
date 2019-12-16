@@ -1,7 +1,7 @@
 import React from 'react'
 import './tweet.css'
 
-function Tweet() {
+export default function Tweet() {
   return (
     <article className="tweet">
       <div className="tweet__cabecalho">
@@ -54,5 +54,3 @@ function Tweet() {
     </article>
   );
 }
-
-export default Tweet;
